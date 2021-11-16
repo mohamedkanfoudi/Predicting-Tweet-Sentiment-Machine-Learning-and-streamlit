@@ -8,7 +8,7 @@ download
 the CSV file  !
 https://drive.google.com/file/d/1lcLdqyVG6mlJUom5q9BBxBdI3puRChTn/view?usp=sharing 
 
-and save it in  Predicting-Tweet-Sentiment-Maching-Learning-and-streamlit FILE
+and save it in  Predicting-Tweet-Sentiment-Maching-Learning-and-streamlit FOLDER
 
 
 Install Anaconda 
@@ -23,27 +23,34 @@ in the terminal appears , run:
 
 pip install streamlit
 
+______________________________________________________________
+you can run directly web app  because the result of training is already saved in saved_steps1.pkl   using pickle  
+and the result of predicting is in results/result_predictions_1000_tweets.csv
 
+in the terminal : 
+go to the repository of the folder
+and then run the command :
 
-run SentimentPrediction.ipynb  (don't forget to paste you own link : 
-here :
+streamlit run app.py
 
-# paste your link to load the training_train-1M6.csv
-dataset = load_dataset("C:/Users//////Predicting-Tweet-Sentiment-Maching-Learning-and-streamlit/training_train-1M6.csv", ['target', 't_id', 'created_at', 'query', 'user', 'text'])
+But if you want to train the model before running the web app
 
-and  : 
-test_file_name = "C:/Users//////twitter_python/training_test_1000.csv"
+Run All cells  in SentimentPrediction.ipynb   
+you will obtain result_predictions_1000_tweets.csv and  saved_steps1.pkl
+_________________________________________________________________________________
 
-and  :
-test_result.to_csv('C:/Users//////Predicting-Tweet-Sentiment-Maching-Learning-and-streamlit/result_predictions_1000_tweets.csv')
+You can also run twitter.py to get tweets  using Twitter API 
+you will obtain result1.csv 
 
-and finally :
-df_csv = pd.read_csv('C:/Users//////Predicting-Tweet-Sentiment-Maching-Learning-and-streamlit/result_predictions_1000_tweets.csv')
+Anytime RUN :
+streamlit run app.py
+and upload any of the CSV files
+or type your own statement to predict if it is positive or not
+_________________________________________________________________________________
 
+Conractez-moi : mohamedelkanfoudi2000@gmail.com
 
-
----------------------------------------------------------------------------------------------------------
+_________________________________________________________________________________________________
 le guide d'installation  d'Anaconda: https://docs.anaconda.com/anaconda/install/windows/
 set up : https://docs.anaconda.com/anaconda/navigator/getting-started/#managing-environments
----------------------------------------------------------------------------------------------------------
 
