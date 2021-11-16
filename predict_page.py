@@ -51,8 +51,6 @@ def download_file(df, types, new_types, extension):
       except:
         st.write('Could not convert', col, 'to', new_types[i])
 
-import io
-import base64
 
 
 
@@ -152,8 +150,6 @@ def show_predict_page():
 
     
 
-    #expericence = st.slider("Years of Experience", 0, 50, 3)
-    
     
     ok = st.button("Predict")
 
@@ -173,11 +169,7 @@ def show_predict_page():
         # Creating text feature
         df.text = df["text"].apply(preprocess_tweet_text)
         
-        #dataset = load_dataset("C:/Users/HPr/Desktop/Stage/twitter_python/training_train-1M6.csv", ['target', 't_id', 'created_at', 'query', 'user', 'text'])
-        #Preprocess data
-        #dataset.text = dataset['text'].apply(preprocess_tweet_text)
-
-        #tf_vector = get_feature_vector(np.array(dataset.iloc[:, 1]).ravel())
+        
         
         df.text = df["text"].apply(preprocess_tweet_text)
         test_feature = vectorTF.transform(np.array(df.iloc[:, 1]).ravel())
@@ -201,12 +193,7 @@ def show_predict_page():
             key='download-csv'
         )
 
-        #print("test_result : ")
-        #print(test_result)
-        
-
-        # Creating text feature
-
+     
         
 
         
