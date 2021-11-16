@@ -48,7 +48,7 @@ and upload any of the CSV files
 or type your own statement to predict if it is positive or not
 _________________________________________________________________________________
 
-Conractez-moi : mohamedelkanfoudi2000@gmail.com
+Contactez-moi : mohamedelkanfoudi2000@gmail.com
 
 _________________________________________________________________________________________________
 le guide d'installation  d'Anaconda: https://docs.anaconda.com/anaconda/install/windows/
