@@ -8,8 +8,8 @@ TO train and then Predict !
 type in terminal  : 
 
 python
-> > >import nltk 
-> > >nltk.download('all')
+">>>"import nltk 
+">>>"nltk.download('all')
 
 it takes time 
 
