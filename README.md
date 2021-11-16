@@ -1,7 +1,17 @@
 # Predicting-Tweet-Sentiment-Maching-Learning-and-streamlit
-click in Run all button  in  requirement.ipynb  (I prefere using VS Code  )
-
+(I prefere using VS Code )
+ 
+ Run the first cell   in  requirement.ipynb  
+VS Code will demand to install Jupiter and python, install them  , then choose your interpreter of python , after that return to requirement.ipynb  and click Run ALL 
 TO train and then Predict !
+
+type in terminal  : 
+
+python
+>>>import nltk 
+>>>nltk.download('all')
+
+it takes time 
 
 
 download
