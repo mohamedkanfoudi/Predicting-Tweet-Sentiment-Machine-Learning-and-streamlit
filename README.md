@@ -1,5 +1,5 @@
 # Predicting-Tweet-Sentiment-Maching-Learning-and-streamlit
-click in Run all button  in  requirement.ipynb in VS Code (I prefere using it )
+click in Run all button  in  requirement.ipynb  (I prefere using VS Code  )
 
 TO train and then Predict !
 
