@@ -1,8 +1,8 @@
 # Predicting-Tweet-Sentiment-Maching-Learning-and-streamlit
-(I prefere using VS Code )
- 
+(I prefere using Visual Studio Code )
+ Open the folder in VS Code
  Run the first cell   in  requirement.ipynb  
-VS Code will demand to install Jupiter and python, install them  , then choose your interpreter of python , after that return to requirement.ipynb  and click Run ALL 
+VS Code will demand to install Jupiter and python, install them  ,  after that return to requirement.ipynb  and click Run ALL (you should choose your interpreter of python )
 TO train and then Predict !
 
 type in terminal  : 
