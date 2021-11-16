@@ -85,6 +85,5 @@ def show_show_page():
     return
   df = get_df(file)
 
-  #ce file avec son  df   il faut faire prediction par importer un fichier SCV 
   explore(df)
 show_show_page()

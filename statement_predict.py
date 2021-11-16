@@ -123,15 +123,6 @@ def show_statement_predict():
             else : 
                 df2 = remove_unwanted_cols(df2, [])
     
-    # declaring a data frame  with three rowsand three columns
-    #data = [['Mallika', 23, 'Student'], [       'Yash', 25, 'Tutor'], ['Abc', 14, 'Clerk']]
-    
-    # creating a pandas data frame
-    #data_frame = pd.DataFrame(data, columns=['Name', 'Age', 'Profession'])
-    
-
-    #data=[['predictions','tweet_id','created_at','query','user','text'],["0","232999989","Thu Jun 25 07:10:05 PDT 2021","NO_QUERY","INMK69",user_input]]
-    #data.columns = ['predictions','tweet_id','created_at','query','user','text']
 
     print(df2)
     explore(df2)
@@ -152,20 +143,13 @@ def show_statement_predict():
 
     # Convert the dictionary into DataFrame
 
-    #df_input=pd.DataFrame(data)
     ok2 = st.button("Predict2")
 
     if ok2 :
     
         # Creating text feature
         df2.text = df2["text"].apply(preprocess_tweet_text)
-        
-        #dataset = load_dataset("C:/Users/HPr/Desktop/Stage/twitter_python/training_train-1M6.csv", ['target', 't_id', 'created_at', 'query', 'user', 'text'])
-        #Preprocess data
-        #dataset.text = dataset['text'].apply(preprocess_tweet_text)
 
-        #tf_vector = get_feature_vector(np.array(dataset.iloc[:, 1]).ravel())
-        
         df2.text = df2["text"].apply(preprocess_tweet_text)
         test_feature = vectorTF.transform(np.array(df2.iloc[:, 1]).ravel())
         
@@ -179,9 +163,6 @@ def show_statement_predict():
 
 
 
-        ####  taper statement =>  df => to_csv  =>  read_csv  puis predict
-    
-    
 
       
 
