@@ -8,11 +8,12 @@ TO train and then Predict !
 type in terminal  : 
 
 python
-">>>"import nltk 
-">>>"nltk.download('stop_words')
-">>>"nltk.download('punkt')
+">>>"
+import nltk 
+nltk.download('stopwords')
+nltk.download('punkt')
 
-it takes time 
+
 
 
 download
