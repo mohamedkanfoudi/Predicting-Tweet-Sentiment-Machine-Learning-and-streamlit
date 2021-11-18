@@ -9,7 +9,8 @@ type in terminal  :
 
 python
 ">>>"import nltk 
-">>>"nltk.download('all')
+">>>"nltk.download('stop_words')
+">>>"nltk.download('punkt')
 
 it takes time 
 
