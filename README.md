@@ -22,21 +22,12 @@ https://drive.google.com/file/d/1lcLdqyVG6mlJUom5q9BBxBdI3puRChTn/view?usp=shari
 
 and save it in  Predicting-Tweet-Sentiment-Maching-Learning-and-streamlit FOLDER
 
-
-Install Anaconda 
-https://www.anaconda.com/products/individual#windows
-
-
-
-![image](https://user-images.githubusercontent.com/76444482/142013402-a446b389-71e6-40a6-83cf-af6c6c448f85.png)
-![image](https://user-images.githubusercontent.com/76444482/142013451-b4286abf-05f3-4fe8-9482-707d00190fed.png)
-
-in the terminal appears , run:
+in the terminal , run:
 
 pip install streamlit
 
 ______________________________________________________________
-you can run directly web app  because the result of training is already saved in saved_steps1.pkl   using pickle  
+Now , you can run directly web app  because the result of training is already saved in saved_steps1.pkl   using pickle  
 and the result of predicting is in results/result_predictions_1000_tweets.csv
 
 in the terminal : 
@@ -61,8 +52,4 @@ or type your own statement to predict if it is positive or not
 _________________________________________________________________________________
 
 Contactez-moi : mohamedelkanfoudi2000@gmail.com
-
-_________________________________________________________________________________________________
-le guide d'installation  d'Anaconda: https://docs.anaconda.com/anaconda/install/windows/
-set up : https://docs.anaconda.com/anaconda/navigator/getting-started/#managing-environments
 
